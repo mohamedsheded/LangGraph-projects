@@ -1,4 +1,4 @@
-# LangGraph Stategraph ReadMe
+# LangGraph Stategraph
 
 ## Overview
 This project implements a LangGraph stategraph that dynamically selects between a Retrieval-Augmented Generation (RAG) node and an LLM call node based on a topic selection function. The decision process leverages a conditional edge, a Pydantic parser, and a chain to fetch attributes for determining the appropriate action.
